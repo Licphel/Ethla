@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<OutputType>WinExe</OutputType>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Labyrinth\Labyrinth.csproj" />
+		<ProjectReference Include="..\Spectrum.Native\Spectrum.Native.csproj" />
+		<ProjectReference Include="..\Spectrum\Spectrum.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="System.Net.WebSockets" Version="4.3.0" />
+	</ItemGroup>
+
+</Project>
